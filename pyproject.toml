@@ -1,0 +1,19 @@
+[project]
+name = "eeg-cap-displacement-ica"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "evrim06", email = "evrim.evirgen@uni-oldenburg.de" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.11.2",
+]
+
+[project.scripts]
+eeg-cap-displacement-ica = "eeg_cap_displacement_ica:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
